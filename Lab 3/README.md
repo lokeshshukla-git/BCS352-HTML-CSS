@@ -11,6 +11,7 @@ Roll Number: 2510303281
 --> Theory
 
 • Every HTML page has a standard structure made of the doctype declaration, the html element, a head (containing the title) and a body. The main tags used are:
+
 h1 to h6 – headings of decreasing importance
 p – paragraph
 strong – bold (important) text
