@@ -1,0 +1,70 @@
+<!-- Name: LOKESH SHUKLA | Roll No: 2510303281 | Assignment: BCS352 Lab 14 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Grid Areas</title>
+
+    <style>
+        .dashboard {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            grid-template-areas:
+                "header header"
+                "sidebar main"
+                "footer footer";
+            gap: 10px;
+        }
+
+        .header {
+            grid-area: header;
+            background-color: navy;
+            color: white;
+            padding: 20px;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background-color: lightblue;
+            padding: 20px;
+        }
+
+        .main {
+            grid-area: main;
+            background-color: lightgreen;
+            padding: 20px;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: lightgray;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Dashboard</h1>
+
+    <div class="dashboard">
+
+        <div class="header">
+            Header
+        </div>
+
+        <div class="sidebar">
+            Sidebar
+        </div>
+
+        <div class="main">
+            Main Content
+        </div>
+
+        <div class="footer">
+            Footer
+        </div>
+
+    </div>
+
+</body>
+</html>

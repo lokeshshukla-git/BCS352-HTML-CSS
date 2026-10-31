@@ -1,0 +1,18 @@
+/* Name: LOKESH SHUKLA | Roll No: 2510303281 | Assignment: BCS352 Lab 11 */
+
+:root {
+    --primary: #1d3557;
+    --accent: #e63946;
+    --heading-size: 2rem;
+    --spacing: 16px;
+}
+
+body {
+    color: var(--primary);
+    padding: var(--spacing);
+}
+
+h1 {
+    color: var(--accent);
+    font-size: var(--heading-size);
+}
