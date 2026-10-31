@@ -8,7 +8,7 @@ To group content using div elements, use id, class and data-* attributes, and fi
 
 --> Theory
 
-The <div> element is a block container used to group content. Attributes add extra information to tags: class can be reused, id must be unique, and data-* stores custom data that is not shown on the page. Valid HTML needs properly closed and nested tags.
+The (<div>) element is a block container used to group content. Attributes add extra information to tags: class can be reused, id must be unique, and data-* stores custom data that is not shown on the page. Valid HTML needs properly closed and nested tags.
 
 --> Conclusion
 
