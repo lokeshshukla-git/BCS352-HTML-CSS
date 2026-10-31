@@ -1,15 +1,15 @@
- Lab 4 – Divs, Attributes and a Small Fix
+ Lab 3 – Your First HTML Page
  
 Subject: BCS352 – HTML and CSS Student Name: LOKESH SHUKLA Roll Number: 2510303281
 
 --> Aim
 
-To group content using div elements, use id, class and data-* attributes, and fix errors in a broken page.
+To write a basic HTML page with a title, headings and paragraphs, and to format text.
 
 --> Theory
 
-The <div> element is a block container used to group content. Attributes add extra information to tags: class can be reused, id must be unique, and data-* stores custom data that is not shown on the page. Valid HTML needs properly closed and nested tags.
+Every HTML page has a standard structure: <!DOCTYPE html>, <html>, <head> (with <title>) and <body>. Headings <h1> to <h6> define content levels, <p> creates paragraphs, <strong> makes text bold, <em> makes it italic, and <br> inserts a line break.
 
 --> Conclusion
 
-I learned how to structure a page with divs, use attributes, and correct errors such as unclosed headings and wrongly written paragraph tags.
+I learned the structure of an HTML document and how to use headings, paragraphs and basic text formatting tags.
