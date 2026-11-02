@@ -16,7 +16,7 @@ Group page content with div elements, use id and data attributes, and correct ma
 
 ## 4. Theory
 
-The div element groups content without adding semantic meaning by itself. The class attribute can label multiple elements, while id identifies one element in a document. Custom data-* attributes store information on an element. Properly nested and closed HTML elements create a reliable document structure.
+Div elements group content for styling or scripting. Classes can be shared across elements, while an id should identify one element. Custom data-* attributes store information in the document without appearing as visible text. Correct nesting and closing tags let the browser build the intended document tree.
 
 ## 5. Algorithm / Procedure
 
@@ -28,12 +28,74 @@ The div element groups content without adding semantic meaning by itself. The cl
 
 ## 6. Program / Queries / Commands
 
+### Task 1 — layout.html
 
-- Task 1: layout.html
+```html
+<!-- Name: LOKESH SHUKLA | Roll Number: 2510303281 | Assignment: BCS352 Lab 4 -->
 
-- Task 2: attributes.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Layout</title>
+</head>
+<body>
+    <div class="header">
+        <h1>My Website</h1>
+    </div>
 
-- Task 3: attendence-fixed.html
+    <div class="main">
+        <p>This is the main content.</p>
+    </div>
+
+    <div class="footer">
+        <p>My website footer.</p>
+    </div>
+</body>
+</html>
+```
+
+### Task 2 — attributes.html
+
+```html
+<!-- Name: LOKESH SHUKLA | Roll Number: 2510303281 | Assignment: BCS352 Lab 4 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Attributes</title>
+</head>
+<body>
+    <div id="profile">
+        <h1>My Profile</h1>
+        <p data-topic="hobbies">My hobbies include reading and listening to music.</p>
+    </div>
+</body>
+</html>
+```
+
+### Task 3 — attendence-fixed.html
+
+```html
+<!-- Name: LOKESH SHUKLA | Roll Number: 2510303281 | Assignment: BCS352 Lab 4 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attendance Record</title>
+</head>
+<body>
+    <h1>Student Attendance</h1>
+
+    <p>Class: B.Tech CSE</p>
+
+    <p>Attendance status: Present</p>
+</body>
+</html>
+```
+
 
 ## 7. Input
 
@@ -67,11 +129,12 @@ The following images show the output screenshots already present in the GitHub l
 
 ## 9. Result
 
-The lab tasks are completed by creating and running the required files or Git commands.
+The layout page groups header, main, and footer content; the attributes page stores a data-topic value on its paragraph; and the corrected attendance document renders its heading with Asha at 92% and Rohan at 85%.
 
 ## 10. Viva-Voce Questions
 
 1. How do class and id differ?
 2. Are data-* attributes displayed automatically?
 3. Why should HTML elements be properly nested and closed?
+
 
