@@ -50,25 +50,22 @@ An h2 heading of your choice.
 
 ## 8. Output
 
-The task output is documented with screenshots:
+The following images show the output screenshots already present in the GitHub lab folder:
 
 ### Task 1
 
-![Task 1 output screenshot](outputs/task-1.png)
+![Task 1 output - Lab 1 - Task 1.png](Lab%201%20-%20Task%201.png)
 
-*Save your clear browser or terminal output screenshot as outputs/task-1.png.*
 
 ### Task 2
 
-![Task 2 output screenshot](outputs/task-2.png)
+![Task 2 output - Lab 1 - Task 2.png](Lab%201%20-%20Task%202.png)
 
-*Save your clear browser or terminal output screenshot as outputs/task-2.png.*
 
 ### Task 3
 
-![Task 3 output screenshot](outputs/task-3.png)
+![Task 3 output - Lab 1 - Task 3.png](Lab%201%20-%20Task%203.png)
 
-*Save your clear browser or terminal output screenshot as outputs/task-3.png.*
 
 ## 9. Result
 
@@ -79,3 +76,5 @@ The lab tasks are completed by creating and running the required files or Git co
 1. What is a Git repository?
 2. What is the purpose of staging changes?
 3. What information does git log --oneline show?
+
+
