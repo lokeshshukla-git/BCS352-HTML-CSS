@@ -16,7 +16,7 @@ Create unordered, ordered, nested, and description lists.
 
 ## 4. Theory
 
-HTML provides ul for unordered lists and ol for ordered lists, with each item placed in li. Lists can be nested to express sub-items. A description list uses dl with dt terms and dd descriptions.
+Unordered lists show related items without sequence, ordered lists show sequence, and li marks each entry. Lists may nest to express sub-items. Description lists use dl to group terms and explanations, with dt for each term and dd for its description.
 
 ## 5. Algorithm / Procedure
 
@@ -28,12 +28,81 @@ HTML provides ul for unordered lists and ol for ordered lists, with each item pl
 
 ## 6. Program / Queries / Commands
 
+### Task 1 — shopping-list.html
 
-- Task 1: shopping-list.html
+```html
+<!-- Name: LOKESH SHUKLA | Roll Number: 2510303281 | Assignment: BCS352 Lab 6 -->
 
-- Task 2: canteen-menu.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+</head>
+<body>
+    <h1>Shopping List</h1>
 
-- Task 3: faq.html
+    <ul>
+        <li>Notebook</li>
+        <li>Pen</li>
+        <li>Bag</li>
+    </ul>
+</body>
+</html>
+```
+
+### Task 2 — canteen-menu.html
+
+```html
+<!-- Name: LOKESH SHUKLA | Roll Number: 2510303281 | Assignment: BCS352 Lab 6 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canteen Menu</title>
+</head>
+<body>
+    <h1>Canteen Menu</h1>
+
+    <ol>
+        <li>Samosa</li>
+        <li>Sandwich
+            <ol>
+                <li>Cheese</li>
+                <li>Vegetable</li>
+            </ol>
+        </li>
+    </ol>
+</body>
+</html>
+```
+
+### Task 3 — faq.html
+
+```html
+<!-- Name: LOKESH SHUKLA | Roll Number: 2510303281 | Assignment: BCS352 Lab 6 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frequently Asked Questions</title>
+</head>
+<body>
+    <h1>Library FAQ</h1>
+
+    <dl>
+        <dt>How many books can I borrow?</dt>
+        <dd>You can borrow books according to the library's borrowing rules.</dd>
+
+        <dt>Is the library open on Sunday?</dt>
+        <dd>Please check the library's current opening hours.</dd>
+    </dl>
+</body>
+</html>
+```
+
 
 ## 7. Input
 
@@ -67,11 +136,12 @@ The following images show the output screenshots already present in the GitHub l
 
 ## 9. Result
 
-The lab tasks are completed by creating and running the required files or Git commands. 
+The pages render a three-item shopping list, a numbered canteen menu with nested choices, and two FAQ terms paired with their answers.
 
 ## 10. Viva-Voce Questions
 
 1. When should you use ul instead of ol?
 2. Which element represents a list item?
 3. What are dt and dd used for?
+
 
