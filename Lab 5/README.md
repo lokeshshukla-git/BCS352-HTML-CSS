@@ -16,7 +16,7 @@ Connect HTML pages with hyperlinks and add an image with useful alternative text
 
 ## 4. Theory
 
-The anchor element creates a hyperlink using href. Relative URLs can connect pages in the same project. The img element displays an image; alt text describes it for accessibility and appears when the image cannot load. Width and height attributes can set image dimensions.
+Anchors link documents using href, and relative paths point to files based on the current page location. The img element embeds an image resource. Alternative text communicates the image meaning to assistive technologies and provides a fallback if it cannot load; width and height define its rendered dimensions.
 
 ## 5. Algorithm / Procedure
 
@@ -28,12 +28,66 @@ The anchor element creates a hyperlink using href. Relative URLs can connect pag
 
 ## 6. Program / Queries / Commands
 
+### Task 1 — home.html
 
-- Task 1: home.html
+```html
+<!-- Name: LOKESH SHUKLA | Roll Number: 2510303281 | Assignment: BCS352 Lab 5 -->
 
-- Task 2: portfolio.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome to My Site</h1>
 
-- Task 3: portfolio-image.html; use the assigned image asset in images/.
+    <p>Visit my <a href="portfolio.html">portfolio</a>.</p>
+</body>
+</html>
+```
+
+### Task 2 — portfolio.html
+
+```html
+<!-- Name: LOKESH SHUKLA | Roll Number: 2510303281 | Assignment: BCS352 Lab 5 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+</head>
+<body>
+    <h1>My Portfolio</h1>
+
+    <p><a href="home.html">Back to Home</a></p>
+</body>
+</html>
+```
+
+### Task 3 — portfolio-image.html
+
+```html
+<!-- Name: LOKESH SHUKLA | Roll Number: 2510303281 | Assignment: BCS352 Lab 5 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Image</title>
+</head>
+<body>
+    <h1>My Portfolio Image</h1>
+
+    <img src="images/portfolio.jpeg"
+         width="200"
+         height="200"
+         alt="A picture displayed in my portfolio">
+</body>
+</html>
+```
+
 
 ## 7. Input
 
@@ -67,11 +121,12 @@ The following images show the output screenshots already present in the GitHub l
 
 ## 9. Result
 
-The lab tasks are completed by creating and running the required files or Git commands. 
+The home and portfolio pages link to one another. The portfolio image page displays the supplied image at 200 by 200 pixels and includes alternative text describing it.
 
 ## 10. Viva-Voce Questions
 
 1. What does href specify?
 2. Why is alt text important?
 3. What is a relative link?
+
 
