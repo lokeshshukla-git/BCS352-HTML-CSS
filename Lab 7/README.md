@@ -31,9 +31,9 @@ Semantic HTML elements such as header, nav, main, section, and footer describe t
 
 - Task 1: about-me.html (update it for each task).
 
-- Task 2: 
+- Task 2: give an h2 heading to about me.
 
-- Task 3: 
+- Task 3: add paragraph inside footer with a link to a email address.
 
 
 ## 7. Input
