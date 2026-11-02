@@ -16,7 +16,7 @@ Build a simple personal page using semantic page regions, an about section, and 
 
 ## 4. Theory
 
-Semantic HTML elements such as header, nav, main, section, and footer describe the roles of page regions. Fragment links use an element id as the destination. A mailto URL opens an email composition action in a compatible application.
+Semantic elements explain the role of page regions: header, nav, main, section, and footer. Fragment links such as #about navigate to an element with the matching id. A mailto link identifies an email destination and opens an email action in a configured client.
 
 ## 5. Algorithm / Procedure
 
@@ -28,12 +28,42 @@ Semantic HTML elements such as header, nav, main, section, and footer describe t
 
 ## 6. Program / Queries / Commands
 
+### Task Final cumulative page — about-me.html
 
-- Task 1: about-me.html (update it for each task).
+```html
+<!-- Name: LOKESH SHUKLA | Roll Number: 2510303281 | Assignment: BCS352 Lab 7 -->
 
-- Task 2: give an h2 heading to about me.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+</head>
+<body>
 
-- Task 3: add paragraph inside footer with a link to a email address.
+    <header>
+        <h1>LOKESH SHUKLA</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About me</h2>
+            <p>Hello! I am a B.Tech CSE student. I enjoy learning HTML and CSS.</p>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>Email: <a href="mailto:lokeshshukla083@gmail.com">lokeshshukla083@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
+```
 
 
 ## 7. Input
@@ -49,27 +79,20 @@ Your email address.
 
 ## 8. Output
 
-The following images show the output screenshots already present in the GitHub lab folder:
+The repository has one screenshot showing the final page after all three cumulative tasks.
 
-### Task 1
+### Final page after Tasks 1–3
 
-![Task 1 output - Lab 7 - Task1.png](Lab%207%20-%20Task1.png)
-
-
-### Task 2
-
-*No screenshot for this task is currently present in the GitHub lab folder.*
-
-### Task 3
-
-*No screenshot for this task is currently present in the GitHub lab folder.*
-
+![Final About Me page](Lab%207%20-%20Task1.png)
 ## 9. Result
 
-The lab tasks are completed by creating and running the required files or Git commands. 
+The final About Me page shows the student name, About and Contact navigation, a short about paragraph, and a clickable email address. The Contact link targets the footer.
+
 ## 10. Viva-Voce Questions
 
 1. What is semantic HTML?
 2. How does a fragment link locate a section?
 3. What does mailto: do?
+
+
 
