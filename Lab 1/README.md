@@ -16,7 +16,7 @@ Create a local Git repository, configure repository-specific identity, track an 
 
 ## 4. Theory
 
-Git is a distributed version control system that records project changes. A repository stores project history. Staging selects changes for the next commit, and commits create named snapshots. The local configuration options set the author identity for the current repository.
+Git records file changes in commits. The working tree holds current files, the staging area selects changes for the next commit, and each commit saves a snapshot with a message. Local Git configuration applies only to this repository, so this experiment sets and checks the author identity before tracking the HTML page.
 
 ## 5. Algorithm / Procedure
 
@@ -28,14 +28,51 @@ Git is a distributed version control system that records project changes. A repo
 
 ## 6. Program / Queries / Commands
 
+### Task 1: Configure the repository
 
-- Task 1: Terminal commands: git init and git config; display configured name and email.
+``` sh
+mkdir html-lab
+cd html-lab
+git init
+git config --local user.name "Your Name"
+git config --local user.email "you@example.com"
+git config user.name
+git config user.email
+```
 
-- Task 2: index.html and terminal commands: git status, git add, git commit.
+### Task 2: Add and commit the first page
 
-- Task 3: Updated index.html and terminal commands: git add, git commit, git log --oneline.
+``` sh
+git status
+git add index.html
+git commit -m "Add home page"
+```
 
-Refer to the listed task files and the assignment brief for the complete requirements. For the Git exercises, include the terminal commands required by each task.
+### Task 3: Update and commit the page
+
+``` sh
+git add index.html
+git commit -m "Add next meeting heading"
+git log --oneline
+```
+
+#### Complete source: index.html
+
+```html
+<!-- Name: LOKESH SHUKLA | Roll Number: 2510303281 | Assignment: BCS352 Lab 1 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Lab</title>
+</head>
+<body>
+    <h1>Welcome to My Lab</h1>
+    <h2>Next Meeting</h2>
+</body>
+</html>
+```
 
 ## 7. Input
 
@@ -69,7 +106,7 @@ The following images show the output screenshots already present in the GitHub l
 
 ## 9. Result
 
-The lab tasks are completed by creating and running the required files or Git commands. Add the screenshots of your actual results above.
+The html-lab repository is initialized and configured with local author details. index.html is committed first with its home heading and again with the added meeting heading; git log --oneline displays both commits newest-first.
 
 ## 10. Viva-Voce Questions
 
