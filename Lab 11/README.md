@@ -18,15 +18,8 @@ Use CSS length units and custom properties to define reusable colors and spacing
 
 CSS lengths include fixed pixels and relative percent and rem units. Percentages depend on a containing context; rem is based on the root font size. Custom properties beginning with -- can be declared on :root and reused with var(), which keeps colors and spacing consistent across rules.
 
-## 5. Algorithm / Procedure
 
-1. Create units.html with a 200px box, a 50% box, and 1.5rem paragraph text.
-
-2. Create variables.html with the specified root colors and padding, then apply them.
-
-3. Create tokens.css with primary/accent colors, heading size, spacing, and use those variables in rules.
-
-## 6. Program / Queries / Commands
+## 5. Program / Queries / Commands
 
 ### Task 1 — units.html
 
@@ -135,7 +128,7 @@ h1 {
 ```
 
 
-## 7. Input
+## 6. Input
 
 ### Task 1
 Box dimensions and text values from the task.
@@ -146,7 +139,7 @@ Box dimensions and text values from the task.
 ### Task 3
 --primary #1d3557, --accent #e63946, --heading-size 2rem, --spacing 16px.
 
-## 8. Output
+## 7. Output
 
 The following images show the output screenshots already present in the GitHub lab folder:
 
@@ -165,11 +158,11 @@ The following images show the output screenshots already present in the GitHub l
 ![Task 3 output - Lab 11 - Task 3.png](Lab%2011%20-%20Task%203.png)
 
 
-## 9. Result
+## 8. Result
 
 The examples show a 200px box, a half-width box, and 1.5rem text. CSS custom properties supply reusable page colors, padding, heading color/size, and spacing tokens.
 
-## 10. Viva-Voce Questions
+## 9. Viva-Voce Questions
 
 1. How does rem differ from px?
 2. What does a percentage width depend on?
