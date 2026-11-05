@@ -18,15 +18,8 @@ Create a local bare remote, push commits to it, and clone a working copy.
 
 A bare repository stores history without a checked-out working tree and can act as a remote. A remote name such as origin is a shortcut to that location. Push transfers commits to the remote branch; clone creates a separate working copy and retrieves its history, allowing the cloned log to be compared with the original.
 
-## 5. Algorithm / Procedure
 
-1. Create ../html-remote as a bare repository, add it as origin, and list remote URLs.
-
-2. Push the current branch and its commits to origin.
-
-3. Clone html-remote into html-copy and display its commit history.
-
-## 6. Program / Queries / Commands
+## 5. Program / Queries / Commands
 
 ### Task 1: Create the bare remote and add origin
 
@@ -71,7 +64,7 @@ git log --oneline
 </html>
 ```
 
-## 7. Input
+## 6. Input
 
 ### Task 1
 Existing html-lab repository and a local path ../html-remote.
@@ -82,7 +75,7 @@ Current branch name (main or master).
 ### Task 3
 Local path html-remote and destination folder html-copy.
 
-## 8. Output
+## 7. Output
 
 The following images show the output screenshots already present in the GitHub lab folder:
 
@@ -101,11 +94,11 @@ The following images show the output screenshots already present in the GitHub l
 ![Task 3 output - Lab 2 - Task 3.png](Lab%202%20-%20Task%203.png)
 
 
-## 9. Result
+## 8. Result
 
 The local bare repository is connected as origin, the current branch is pushed, and html-copy is cloned from that remote. The cloned log shows the commits created in the original repository.
 
-## 10. Viva-Voce Questions
+## 9. Viva-Voce Questions
 
 1. What is a bare repository?
 2. What does the origin remote represent?
