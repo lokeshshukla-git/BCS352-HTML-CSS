@@ -18,15 +18,8 @@ Create labelled form fields, radio buttons, a dropdown, required fields, and a s
 
 Forms group controls and specify where/how a submission is sent. Labels should be programmatically associated with inputs through for and id. Input types provide browser behavior suited to their data; radio buttons with the same name form a single-choice group; select and option create a dropdown. The required attribute activates built-in constraint validation.
 
-## 5. Algorithm / Procedure
 
-1. Create signup.html with a POST form targeting thanks.html and labelled name, email, and password fields.
-
-2. Create choices.html with Female/Male radio choices and a BCA/B.Tech course dropdown.
-
-3. Create signup-required.html with required name and email fields, a name placeholder, and Submit button.
-
-## 6. Program / Queries / Commands
+## 5. Program / Queries / Commands
 
 ### Task 1 — signup.html
 
@@ -146,7 +139,7 @@ Forms group controls and specify where/how a submission is sent. Labels should b
 ```
 
 
-## 7. Input
+## 6. Input
 
 ### Task 1
 Name, email, and password entered by the user.
@@ -157,7 +150,7 @@ One gender choice and one course choice.
 ### Task 3
 Name and email values; leave a required field empty to observe validation.
 
-## 8. Output
+## 7. Output
 
 The following images show the output screenshots already present in the GitHub lab folder:
 
@@ -176,11 +169,11 @@ The following images show the output screenshots already present in the GitHub l
 ![Task 3 output - Lab 8 - Task 3.png](Lab%208%20-%20Task%203.png)
 
 
-## 9. Result
+## 8. Result
 
 The pages demonstrate labelled name/email/password fields, radio and dropdown choices, and browser validation that prevents submission while a required field is empty.
 
-## 10. Viva-Voce Questions
+## 9. Viva-Voce Questions
 
 1. Why associate a label with its input?
 2. How do radio buttons make a single-choice group?
