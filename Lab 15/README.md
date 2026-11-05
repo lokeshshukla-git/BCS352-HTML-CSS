@@ -18,15 +18,8 @@ Use mobile-first media queries, responsive images, and rem-based typography.
 
 Responsive design adapts a page to its viewport. The viewport meta tag sets the layout viewport to the device width. Mobile-first CSS provides a base layout and media queries apply changes at breakpoints. max-width:100% lets an image shrink within its box, height:auto preserves its proportions, and rem units scale text relative to the root font size.
 
-## 5. Algorithm / Procedure
 
-1. Create mobile-first.html with two cards stacked by default and side by side at 600px and above.
-
-2. Create responsive-image.html with a heading and instructor-provided image scaled by max-width 100% and height auto.
-
-3. Create responsive-text.html with 1rem body, 1.5rem h1, and 2.5rem h1 at 600px and above.
-
-## 6. Program / Queries / Commands
+## 5. Program / Queries / Commands
 
 ### Task 1 — mobile-first.html
 
@@ -152,7 +145,7 @@ Responsive design adapts a page to its viewport. The viewport meta tag sets the 
 ```
 
 
-## 7. Input
+## 6. Input
 
 ### Task 1
 Two card contents and viewport widths below/above 600px.
@@ -163,7 +156,7 @@ Instructor-provided image file and narrow/wide viewport.
 ### Task 3
 Text content and viewport widths below/above 600px.
 
-## 8. Output
+## 7. Output
 
 The following images show the output screenshots already present in the GitHub lab folder:
 
@@ -186,11 +179,11 @@ The following images show the output screenshots already present in the GitHub l
 ![Task 3 output - Lab 15 - Task 3(b).png](Lab%2015%20-%20Task%203%28b%29.png)
 
 
-## 9. Result
+## 8. Result
 
 The card layout stacks on phone-sized viewports and changes to side-by-side cards at 600px. The image scales down without distortion, and the heading grows at the 600px breakpoint.
 
-## 10. Viva-Voce Questions
+## 9. Viva-Voce Questions
 
 1. What is mobile-first design?
 2. What does a media query do?
