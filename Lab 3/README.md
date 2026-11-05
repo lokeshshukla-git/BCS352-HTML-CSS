@@ -18,13 +18,6 @@ Create basic HTML documents with a title, headings, paragraphs, text emphasis, a
 
 HTML describes the structure and meaning of web content. The head contains metadata such as the tab title, while the body contains visible page content. Heading levels create a hierarchy; paragraphs group text; strong and em mark importance and emphasis; br starts a new line without ending the paragraph.
 
-## 5. Algorithm / Procedure
-
-1. Create first.html with title “My First Page” and h1 “Hello, I am Asha”; open it in a browser.
-
-2. Create headings.html with h1, h2, h3, and a paragraph.
-
-3. Create text-format.html with two paragraphs, strong and em emphasis, and a line break inside a paragraph.
 
 ## 6. Program / Queries / Commands
 
@@ -87,7 +80,7 @@ HTML describes the structure and meaning of web content. The head contains metad
 ```
 
 
-## 7. Input
+## 6. Input
 
 ### Task 1
 Title and heading text specified in the task.
@@ -98,7 +91,7 @@ Your chosen heading and paragraph text.
 ### Task 3
 Two paragraphs of your choice and one word each to emphasize.
 
-## 8. Output
+## 7. Output
 
 The following images show the output screenshots already present in the GitHub lab folder:
 
@@ -117,11 +110,11 @@ The following images show the output screenshots already present in the GitHub l
 ![Task 3 output - Lab 3 - Task 3.png](Lab%203%20-%20Task%203.png)
 
 
-## 9. Result
+## 8. Result
 
 The three pages demonstrate a titled first page, a hierarchy of three headings and a paragraph, and paragraph text with strong/em emphasis and an internal line break.
 
-## 10. Viva-Voce Questions
+## 9. Viva-Voce Questions
 
 1. What is the role of the head element?
 2. How do h1, h2, and h3 differ?
