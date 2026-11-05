@@ -18,15 +18,8 @@ Connect HTML pages with hyperlinks and add an image with useful alternative text
 
 Anchors link documents using href, and relative paths point to files based on the current page location. The img element embeds an image resource. Alternative text communicates the image meaning to assistive technologies and provides a fallback if it cannot load; width and height define its rendered dimensions.
 
-## 5. Algorithm / Procedure
 
-1. Create home.html with the heading Welcome to My Site and a portfolio link to portfolio.html.
-
-2. Create portfolio.html with a heading and a link back to home.html.
-
-3. Create portfolio-image.html with a heading and a 200 by 200 image from the images folder and descriptive alt text.
-
-## 6. Program / Queries / Commands
+## 5. Program / Queries / Commands
 
 ### Task 1 — home.html
 
@@ -100,7 +93,7 @@ A heading and return-link text of your choice.
 ### Task 3
 Instructor-provided image filename and a concise image description for alt text.
 
-## 8. Output
+## 7. Output
 
 The following images show the output screenshots already present in the GitHub lab folder:
 
@@ -119,11 +112,11 @@ The following images show the output screenshots already present in the GitHub l
 ![Task 3 output - Lab 5 - Task 3.png](Lab%205%20-%20Task%203.png)
 
 
-## 9. Result
+## 8. Result
 
 The home and portfolio pages link to one another. The portfolio image page displays the supplied image at 200 by 200 pixels and includes alternative text describing it.
 
-## 10. Viva-Voce Questions
+## 9. Viva-Voce Questions
 
 1. What does href specify?
 2. Why is alt text important?
