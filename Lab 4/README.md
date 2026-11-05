@@ -18,15 +18,8 @@ Group page content with div elements, use id and data attributes, and correct ma
 
 Div elements group content for styling or scripting. Classes can be shared across elements, while an id should identify one element. Custom data-* attributes store information in the document without appearing as visible text. Correct nesting and closing tags let the browser build the intended document tree.
 
-## 5. Algorithm / Procedure
 
-1. Create layout.html with header, main, and footer div blocks in that order.
-
-2. Create attributes.html with a div id profile and a paragraph whose data-topic is hobbies.
-
-3. Repair the supplied attendance markup and save the valid page as attendence-fixed.html.
-
-## 6. Program / Queries / Commands
+## 5. Program / Queries / Commands
 
 ### Task 1 — layout.html
 
@@ -97,7 +90,7 @@ Div elements group content for styling or scripting. Classes can be shared acros
 ```
 
 
-## 7. Input
+## 6. Input
 
 ### Task 1
 Text for the three layout blocks.
@@ -108,7 +101,7 @@ Paragraph text; data-topic value hobbies.
 ### Task 3
 Supplied broken markup and the names/percentages Asha 92% and Rohan 85%.
 
-## 8. Output
+## 7. Output
 
 The following images show the output screenshots already present in the GitHub lab folder:
 
@@ -127,11 +120,11 @@ The following images show the output screenshots already present in the GitHub l
 ![Task 3 output - Lab 4 - Task 3.png](Lab%204%20-%20Task%203.png)
 
 
-## 9. Result
+## 8. Result
 
 The layout page groups header, main, and footer content; the attributes page stores a data-topic value on its paragraph; and the corrected attendance document renders its heading with Asha at 92% and Rohan at 85%.
 
-## 10. Viva-Voce Questions
+## 9. Viva-Voce Questions
 
 1. How do class and id differ?
 2. Are data-* attributes displayed automatically?
