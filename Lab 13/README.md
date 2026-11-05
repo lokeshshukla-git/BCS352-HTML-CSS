@@ -18,15 +18,8 @@ Use Flexbox to arrange a navigation bar, centered cards, and wrapping product ca
 
 Flexbox arranges items along main and cross axes. display:flex creates the container. justify-content aligns or distributes items along the main axis, align-items handles the cross axis, and flex-wrap lets items continue on a new line when space is limited.
 
-## 5. Algorithm / Procedure
 
-1. Create nav-flex.html with four white links in a dark horizontal flex navigation bar.
-
-2. Create centred-card.html with three price cards centered in one row.
-
-3. Create wrapping-cards.html with four stationery cards in a wrapping flex row; inspect at a narrow width.
-
-## 6. Program / Queries / Commands
+## 5. Program / Queries / Commands
 
 ### Task 1 — nav-flex.html
 
@@ -176,7 +169,7 @@ Flexbox arranges items along main and cross axes. display:flex creates the conta
 ```
 
 
-## 7. Input
+## 6. Input
 
 ### Task 1
 Home, About, Events, Contact.
@@ -187,7 +180,7 @@ Starter 199, Standard 349, Premium 499.
 ### Task 3
 Notebook 60, Pen 15, Bag 350, Book 120; narrow browser viewport.
 
-## 8. Output
+## 7. Output
 
 The following images show the output screenshots already present in the GitHub lab folder:
 
@@ -208,11 +201,11 @@ The following images show the output screenshots already present in the GitHub l
 ![Task 3 output - Lab 13 - Task 3(b).png](Lab%2013%20-%20Task%203%28b%29.png)
 
 
-## 9. Result
+## 8. Result
 
 The navigation links form a horizontal dark flex bar, the three pricing cards are centered in a row, and the stationery cards wrap to additional rows at a narrower viewport.
 
-## 10. Viva-Voce Questions
+## 9. Viva-Voce Questions
 
 1. How do you create a flex container?
 2. What does justify-content control?
