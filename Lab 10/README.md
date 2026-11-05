@@ -18,15 +18,8 @@ Apply inline, internal, and external CSS and use selectors and text styles.
 
 CSS applies presentation through rules made of selectors and declarations. Element selectors target tags, class selectors use a dot, and id selectors use a hash. Styles may be inline, in an internal style element, or in an external file linked from HTML. The cascade considers importance, specificity, and source order when rules compete.
 
-## 5. Algorithm / Procedure
 
-1. Create inline-internal.html with navy h1, yellow highlight class, and a red inline-styled paragraph.
-
-2. Create style.css with h1, .note, #title, and p rules as specified.
-
-3. Create linked.html linked to style.css with an h1 id title and two note paragraphs.
-
-## 6. Program / Queries / Commands
+## 5. Program / Queries / Commands
 
 ### Task 1 — inline-internal.html
 
@@ -116,7 +109,7 @@ p {
 ```
 
 
-## 7. Input
+## 6. Input
 
 ### Task 1
 Heading and paragraph text; class highlight.
@@ -127,7 +120,7 @@ Specified selectors and styles: navy, italic, underlined, 18px grey paragraphs.
 ### Task 3
 Text content and style.css in the same folder.
 
-## 8. Output
+## 7. Output
 
 The following images show the output screenshots already present in the GitHub lab folder:
 
@@ -146,11 +139,11 @@ The following images show the output screenshots already present in the GitHub l
 ![Task 3 output - Lab 10 - Task 3.png](Lab%2010%20-%20Task%203.png)
 
 
-## 9. Result
+## 8. Result
 
 The pages demonstrate inline, internal, and external stylesheets. The visible rules give headings navy color, highlight a paragraph yellow, style inline text red, italicize notes, underline the title, and set paragraphs to grey 18px text.
 
-## 10. Viva-Voce Questions
+## 9. Viva-Voce Questions
 
 1. What is the difference between a class selector and an id selector?
 2. How do you link an external stylesheet?
