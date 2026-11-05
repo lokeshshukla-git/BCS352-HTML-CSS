@@ -18,15 +18,8 @@ Create unordered, ordered, nested, and description lists.
 
 Unordered lists show related items without sequence, ordered lists show sequence, and li marks each entry. Lists may nest to express sub-items. Description lists use dl to group terms and explanations, with dt for each term and dd for its description.
 
-## 5. Algorithm / Procedure
 
-1. Create shopping-list.html with three unordered items: Notebook, Pen, and Bag.
-
-2. Create canteen-menu.html with Samosa and Sandwich; nest Cheese and Vegetable under Sandwich.
-
-3. Create faq.html with the two supplied questions as dt elements and answers in dd elements.
-
-## 6. Program / Queries / Commands
+## 5. Program / Queries / Commands
 
 ### Task 1 — shopping-list.html
 
@@ -104,7 +97,7 @@ Unordered lists show related items without sequence, ordered lists show sequence
 ```
 
 
-## 7. Input
+## 6. Input
 
 ### Task 1
 Notebook, Pen, Bag.
@@ -115,7 +108,7 @@ Samosa, Sandwich, Cheese, Vegetable.
 ### Task 3
 Questions: “How many books can I borrow?” and “Is the library open on Sunday?”; write an answer for each.
 
-## 8. Output
+## 7. Output
 
 The following images show the output screenshots already present in the GitHub lab folder:
 
@@ -134,11 +127,11 @@ The following images show the output screenshots already present in the GitHub l
 ![Task 3 output - Lab 6 - Task 3.png](Lab%206%20-%20Task%203.png)
 
 
-## 9. Result
+## 8. Result
 
 The pages render a three-item shopping list, a numbered canteen menu with nested choices, and two FAQ terms paired with their answers.
 
-## 10. Viva-Voce Questions
+## 9. Viva-Voce Questions
 
 1. When should you use ul instead of ol?
 2. Which element represents a list item?
