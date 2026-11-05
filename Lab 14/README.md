@@ -18,15 +18,9 @@ Create equal-column grids, a responsive gallery, and a named-area page layout.
 
 CSS Grid arranges content in two dimensions. The fr unit shares available track space; repeat() expresses repeated tracks; minmax() sets track size limits; and auto-fill fits as many tracks as possible. Named grid-template-areas describe page regions and assign elements to those regions.
 
-## 5. Algorithm / Procedure
 
-1. Create grid-first.html with six numbered boxes in three equal columns and 12px gaps.
 
-2. Create gallery.html with six photo boxes using repeat(auto-fill, minmax(150px, 1fr)) and 10px gap.
-
-3. Create dashboard-areas.html with 200px/1fr columns and named header, sidebar, main, and footer regions.
-
-## 6. Program / Queries / Commands
+## 5. Program / Queries / Commands
 
 ### Task 1 — grid-first.html
 
@@ -188,7 +182,7 @@ CSS Grid arranges content in two dimensions. The fr unit shares available track 
 ```
 
 
-## 7. Input
+## 6. Input
 
 ### Task 1
 Numbers 1–6; three equal columns.
@@ -199,7 +193,7 @@ Photo 1 through Photo 6; minimum track width 150px.
 ### Task 3
 Two columns, 200px and 1fr; named layout regions.
 
-## 8. Output
+## 7. Output
 
 The following images show the output screenshots already present in the GitHub lab folder:
 
@@ -220,11 +214,11 @@ The following images show the output screenshots already present in the GitHub l
 ![Task 3 output - Lab 14 - Task 3.png](Lab%2014%20-%20Task%203.png)
 
 
-## 9. Result
+## 8. Result
 
 The grid page displays six boxes in three columns, the gallery fits columns according to available width, and the named-area dashboard places a header and footer across the page with sidebar and main content beneath.
 
-## 10. Viva-Voce Questions
+## 9. Viva-Voce Questions
 
 1. What does fr represent in CSS Grid?
 2. What does minmax() define?
