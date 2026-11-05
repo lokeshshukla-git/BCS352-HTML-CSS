@@ -18,13 +18,6 @@ Compare box-sizing behavior, style a card, and enable scrolling in a fixed-heigh
 
 The box model contains content, padding, border, and margin. With content-box, width covers the content only; with border-box, it includes padding and border. Border radius rounds corners. Overflow controls content that exceeds a box, and auto makes excess content scrollable.
 
-## 5. Algorithm / Procedure
-
-1. Create box-model.html with two 200px boxes, 20px padding, 5px border, using content-box and border-box.
-
-2. Create card.html with the required card class, background, border, 12px radius, padding, h3, and paragraph.
-
-3. Create scroll.html with a 120px-high auto-overflow box containing five lines.
 
 ## 6. Program / Queries / Commands
 
@@ -139,7 +132,7 @@ The box model contains content, padding, border, and margin. With content-box, w
 ```
 
 
-## 7. Input
+## 6. Input
 
 ### Task 1
 Width 200px, padding 20px, border 5px.
@@ -150,7 +143,7 @@ Card heading and paragraph text; specified style values.
 ### Task 3
 Five paragraphs labelled Line 1 through Line 5.
 
-## 8. Output
+## 7. Output
 
 The following images show the output screenshots already present in the GitHub lab folder:
 
@@ -169,11 +162,11 @@ The following images show the output screenshots already present in the GitHub l
 ![Task 3 output - Lab 12 - Task 3.png](Lab%2012%20-%20Task%203.png)
 
 
-## 9. Result
+## 8. Result
 
 The content-box example is wider overall than the border-box example for the same declared width and padding. The card shows a colored background, border and rounded corners; the fixed-height text area scrolls through five lines.
 
-## 10. Viva-Voce Questions
+## 9. Viva-Voce Questions
 
 1. What does box-sizing: border-box change?
 2. Which CSS property rounds card corners?
