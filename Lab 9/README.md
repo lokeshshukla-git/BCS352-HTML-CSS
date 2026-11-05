@@ -18,15 +18,8 @@ Structure tabular data with a caption, header, body, footer, and scope attribute
 
 Tables present data in rows and columns. Caption names the table, thead groups headings, tbody groups records, and tfoot contains a summary. th identifies a header and td a data cell. Scope clarifies whether a header applies to a column or row, improving accessible navigation.
 
-## 5. Algorithm / Procedure
 
-1. Create marks.html with caption, Name/Maths/Science headings, and the three specified student rows.
-
-2. Create marks-average.html with Asha and Rohan and a footer containing the class averages.
-
-3. Create marks-accessible.html with Asha and Rohan and scope=col / scope=row on the appropriate header cells.
-
-## 6. Program / Queries / Commands
+## 5. Program / Queries / Commands
 
 ### Task 1 — marks.html
 
@@ -165,7 +158,7 @@ Tables present data in rows and columns. Caption names the table, thead groups h
 ```
 
 
-## 7. Input
+## 6. Input
 
 ### Task 1
 Asha 78/85; Rohan 64/70; Neha 91/88.
@@ -176,7 +169,7 @@ Asha and Rohan marks; calculate the average for each subject.
 ### Task 3
 Asha and Rohan data with column and row scope attributes.
 
-## 8. Output
+## 7. Output
 
 The following images show the output screenshots already present in the GitHub lab folder:
 
@@ -195,11 +188,11 @@ The following images show the output screenshots already present in the GitHub l
 ![Task 3 output - Lab 9 - Task 3.png](Lab%209%20-%20Task%203.png)
 
 
-## 9. Result
+## 8. Result
 
 The pages render the class marks table, a two-student average row (Maths 71; Science 77.5), and an accessible table with row and column scope attributes.
 
-## 10. Viva-Voce Questions
+## 9. Viva-Voce Questions
 
 1. What are thead, tbody, and tfoot used for?
 2. How do th and td differ?
