@@ -18,15 +18,8 @@ Create a local Git repository, configure repository-specific identity, track an 
 
 Git records file changes in commits. The working tree holds current files, the staging area selects changes for the next commit, and each commit saves a snapshot with a message. Local Git configuration applies only to this repository, so this experiment sets and checks the author identity before tracking the HTML page.
 
-## 5. Algorithm / Procedure
-
-1. Initialize html-lab as a Git repository, set local user.name and user.email, and display both values.
-
-2. Create index.html with an h1, inspect status, stage the file, and commit it as “Add home page”.
-
-3. Add an h2 to index.html, commit as “Add next meeting heading”, and show the one-line history.
-
-## 6. Program / Queries / Commands
+ 
+## 5. Program / Queries / Commands
 
 ### Task 1: Configure the repository
 
@@ -74,7 +67,7 @@ git log --oneline
 </html>
 ```
 
-## 7. Input
+## 6. Input
 
 ### Task 1
 Your Git author name and email; folder name html-lab.
@@ -85,7 +78,7 @@ An h1 heading of your choice.
 ### Task 3
 An h2 heading of your choice.
 
-## 8. Output
+## 7. Output
 
 The following images show the output screenshots already present in the GitHub lab folder:
 
@@ -104,11 +97,11 @@ The following images show the output screenshots already present in the GitHub l
 ![Task 3 output - Lab 1 - Task 3.png](Lab%201%20-%20Task%203.png)
 
 
-## 9. Result
+## 8. Result
 
 The html-lab repository is initialized and configured with local author details. index.html is committed first with its home heading and again with the added meeting heading; git log --oneline displays both commits newest-first.
 
-## 10. Viva-Voce Questions
+## 9. Viva-Voce Questions
 
 1. What is a Git repository?
 2. What is the purpose of staging changes?
